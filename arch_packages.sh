@@ -27,6 +27,11 @@ PACKAGES=(
   ripgrep
   7zip
   ntfs-3g
+  nix
+  cups
+  avahi
+  print-manager
+  system-config-printer
 )
 
 echo "installing packages"
