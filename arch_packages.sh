@@ -7,13 +7,11 @@ sudo pacman -Syu --noconfirm
 PACKAGES=(
   neovim
   git
-  btop
   curl
   wget
   fzf
   less
   fd
-  yazi
   power-profiles-daemon
   openssh
   lazygit
