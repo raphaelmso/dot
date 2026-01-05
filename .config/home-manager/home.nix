@@ -36,6 +36,7 @@
     # '')
     pkgs.btop
     pkgs.yazi
+    pkgs.lua-language-server
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -78,8 +79,12 @@
 
   programs.git = {
   enable = true;
-  userEmail = "raphael.msoliveira@gmail.com";
-  userName = "Raphael Oliveira";
+      settings = {
+          user = {
+              email = "raphael.msoliveira@gmail.com";
+              name = "Raphael Oliveira";
+          };
+      };
 };
 
 }
