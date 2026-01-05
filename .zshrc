@@ -23,8 +23,9 @@ setopt HIST_VERIFY
 alias cd="z"
 alias zj="zellij"
 alias n="nvim"
-alias ee="nvim ~/Dev/dotfiles/packages.sh"
-alias ii="sudo ~/Dev/dotfiles/packages.sh"
+alias nea="nvim ~/Dev/dot/arch_packages.sh"
+alias nex="~/Dev/dot/arch_packages.sh"
+alias nen="nvim ~/Dev/dot/.config/home-manager/home.nix"
 alias hh="nvim ~/.config/hypr/hyprland.conf"
 alias ls="eza --icons"
 
