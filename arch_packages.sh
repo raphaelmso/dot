@@ -32,13 +32,18 @@ PACKAGES=(
   avahi
   print-manager
   system-config-printer
+  ttf-jetbrains-mono-nerd
+  zellij
+  yt-dlp
+  nss-mdns
+
 )
 
 echo "installing packages"
 sudo pacman -S --needed --noconfirm "${PACKAGES[@]}"
 
-TOOLS=(
-  gparted
+GUI=(
+  partitionmanager
   freecad
   geogebra
   libreoffice-fresh
@@ -50,16 +55,40 @@ TOOLS=(
   deluge
   deluge-gtk
   kdenlive
-  mpv
+  haruna
   obs-studio
+  gwenview
   inkscape
   calibre
+  handbrake
   pdfarranger
   kicad
   gnome-boxes
   ncdu
+  obsidian
+  yakuake
+  bovo
+  kmahjongg
+  kmines
+  kpat
+  knights
+  klines
+  okular
+  isoimagewriter
+  kcharselect
+  krita
+  kate
+  kcalc
+  filelight
+  elisa
+  skanpage
+  ksystemlog
 )
 
+sudo pacman -S --needed --noconfirm "${GUI[@]}"
+
 AUR=(
-  anki
+  anki-bin
+  spacecadetpinball-git
+  epson-inkjet-printer-escpr
 )
