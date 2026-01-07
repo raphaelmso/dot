@@ -36,7 +36,8 @@ PACKAGES=(
   zellij
   yt-dlp
   nss-mdns
-
+  ufw
+  inter-font
 )
 
 echo "installing packages"
@@ -46,7 +47,6 @@ GUI=(
   partitionmanager
   freecad
   geogebra
-  libreoffice-fresh
   steam #multilib
   gamescope
   blender
@@ -83,6 +83,8 @@ GUI=(
   elisa
   skanpage
   ksystemlog
+  ardour
+  kwave
 )
 
 sudo pacman -S --needed --noconfirm "${GUI[@]}"
@@ -91,4 +93,5 @@ AUR=(
   anki-bin
   spacecadetpinball-git
   epson-inkjet-printer-escpr
+  libreoffice-fresh
 )
