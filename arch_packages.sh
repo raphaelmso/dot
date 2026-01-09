@@ -38,6 +38,9 @@ PACKAGES=(
   nss-mdns
   ufw
   inter-font
+  cmake
+  dialog
+  gnuchess
 )
 
 echo "installing packages"
@@ -85,6 +88,7 @@ GUI=(
   ksystemlog
   ardour
   kwave
+  discord
 )
 
 sudo pacman -S --needed --noconfirm "${GUI[@]}"
@@ -94,4 +98,5 @@ AUR=(
   spacecadetpinball-git
   epson-inkjet-printer-escpr
   libreoffice-fresh
+  spotify
 )
