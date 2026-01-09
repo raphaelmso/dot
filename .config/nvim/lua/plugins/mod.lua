@@ -21,4 +21,12 @@ return {
     lazy = true,
     opts = { style = "night" },
   },
+  {
+    "fole/noice.nvim",
+    opts = {
+      cmdline = {
+        view = "cmdline",
+      },
+    }
+  }
 }
