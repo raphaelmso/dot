@@ -41,6 +41,11 @@ PACKAGES=(
   cmake
   dialog
   gnuchess
+  dolphin-plugins
+  kdegraphics-thumbnailers
+  kdenetwork-filesharing
+  kimageformats
+  ffmpegthumbs
 )
 
 echo "installing packages"
@@ -70,7 +75,6 @@ GUI=(
   ncdu
   obsidian
   yakuake
-  bovo
   kmahjongg
   kmines
   kpat
