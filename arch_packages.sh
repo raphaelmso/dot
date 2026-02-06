@@ -46,6 +46,11 @@ PACKAGES=(
   kdenetwork-filesharing
   kimageformats
   ffmpegthumbs
+  img2pdf
+  perl-image-exiftool
+  noto-fonts-cjk
+  arch-wiki-docs
+  wikiman
 )
 
 echo "installing packages"
@@ -59,9 +64,9 @@ GUI=(
   gamescope
   blender
   darktable
+  libreoffice-fresh
   gimp
-  deluge
-  deluge-gtk
+  ktorrent
   kdenlive
   haruna
   obs-studio
@@ -93,6 +98,10 @@ GUI=(
   ardour
   kwave
   discord
+  godot
+  kirigami-gallery
+  kolourpaint
+  kcolorchooser
 )
 
 sudo pacman -S --needed --noconfirm "${GUI[@]}"
@@ -101,6 +110,6 @@ AUR=(
   anki-bin
   spacecadetpinball-git
   epson-inkjet-printer-escpr
-  libreoffice-fresh
   spotify
+  localsend-bin
 )
