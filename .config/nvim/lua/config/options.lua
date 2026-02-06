@@ -4,3 +4,4 @@
 
 -- Set to `false` to globally disable all snacks animations
 vim.g.snacks_animate = false
+vim.opt.clipboard = "unnamedplus"
