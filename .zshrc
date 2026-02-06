@@ -6,7 +6,6 @@ export PATH=$HOME/.nix-profile/bin:$PATH
 # export environment variables 
 export EDITOR='nvim'
 
-
 # History 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000000
@@ -23,9 +22,10 @@ setopt HIST_VERIFY
 alias cd="z"
 alias zj="zellij"
 alias n="nvim"
-alias nea="nvim ~/Dev/dot/arch_packages.sh"
-alias nex="~/Dev/dot/arch_packages.sh"
-alias nen="nvim ~/Dev/dot/.config/home-manager/home.nix"
+alias alep="nvim ~/Dev/dot/arch_packages.sh"
+alias alxs="~/Dev/dot/arch_packages.sh"
+alias alen="nvim ~/Dev/dot/.config/home-manager/home.nix"
+alias alus="paru && flatpak upgrade"
 alias hh="nvim ~/.config/hypr/hyprland.conf"
 alias ls="eza --icons"
 
