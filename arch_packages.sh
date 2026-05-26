@@ -51,12 +51,15 @@ PACKAGES=(
   noto-fonts-cjk
   arch-wiki-docs
   wikiman
+  usbmuxd
+  dosfstools
 )
 
 echo "installing packages"
 sudo pacman -S --needed --noconfirm "${PACKAGES[@]}"
 
 GUI=(
+  anki
   partitionmanager
   freecad
   geogebra
@@ -68,6 +71,7 @@ GUI=(
   gimp
   ktorrent
   kdenlive
+  kmymoney
   haruna
   obs-studio
   gwenview
@@ -92,7 +96,6 @@ GUI=(
   kate
   kcalc
   filelight
-  elisa
   skanpage
   ksystemlog
   ardour
@@ -107,7 +110,6 @@ GUI=(
 sudo pacman -S --needed --noconfirm "${GUI[@]}"
 
 AUR=(
-  anki-bin
   spacecadetpinball-git
   epson-inkjet-printer-escpr
   spotify
