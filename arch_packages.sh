@@ -105,13 +105,11 @@ GUI=(
   kirigami-gallery
   kolourpaint
   kcolorchooser
+  thunderbird
 )
 
 sudo pacman -S --needed --noconfirm "${GUI[@]}"
 
 AUR=(
-  spacecadetpinball-git
   epson-inkjet-printer-escpr
-  spotify
-  localsend-bin
 )
