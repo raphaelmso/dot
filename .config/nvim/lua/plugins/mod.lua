@@ -35,11 +35,7 @@ return {
 
   {
     "fole/noice.nvim",
-    opts = {
-      cmdline = {
-        view = "cmdline",
-      },
-    }
+    enabled = false,
   }
 
 }
